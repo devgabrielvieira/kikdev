@@ -6,7 +6,7 @@
 
 .header a {
     float: left;
-    color: #fff ;
+    color: #fff;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -26,7 +26,7 @@
 }
 
 .header a.active {
-    background-color: dodgerblue;
+    background-color: #adadad;
     color: white;
 
 }
