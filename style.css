@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     overflow: hidden;
     background-color: #FF4040;
@@ -29,8 +39,7 @@
 
 .header a.active {
     background-color: #d8d7d7;
-    color: white;
-
+    color: #fff;
 }
 
 .header-right {
@@ -75,23 +84,27 @@
 
 .header-index a.active {
     background-color: #d8d7d7;
-    color: white;
-
+    color: #fff;
 }
 
 .conteudo {
-    width: auto;
+    width: 100%;
     height: 450px;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #fff;
 }
 
 .footer {
+    /* width: auto;
+    height: 60px; */
     width: auto;
-    height: 60px;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #FF4040;
     padding: 20px 10px;
+    position: relative;
+    height: 2.5rem;
+    bottom: -50px;
+
 }
 
 p {
@@ -104,6 +117,17 @@ p {
 }
 
 @media screen and (max-width: 500px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
     .header a {
         float: none;
         display: block;
@@ -127,6 +151,10 @@ p {
     .footer {
         float: none;
         display: block;
+        position: relative;
+        height: 2.5rem;
+        width: auto;
+        bottom: -200px;
     }
 
 }
