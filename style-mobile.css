@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 
     * {
         margin: 0;
@@ -38,17 +38,19 @@
         display: block;
         position: relative;
         height: 2.5rem;
-        width: auto;
+        width: 100%;
         bottom: -200px;
+
     }
 
-    /* .footer {
+    .conteudo img {
         float: none;
         display: block;
         position: absolute;
-        height: 2.5rem;
         width: 100%;
-        bottom: 0;
-    } */
+        background-color: #fff;
+        margin: 2px 0 0 0;
+        height: 10rem;
+    }
 
 }
