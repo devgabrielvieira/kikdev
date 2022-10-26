@@ -95,10 +95,7 @@ html {
 }
 
 .footer {
-    /* width: auto;
-    height: 60px; */
     width: auto;
-    /* overflow: hidden; */
     background-color: #FF4040;
     padding: 20px 10px;
     position: relative;
@@ -113,48 +110,5 @@ p {
     float: none;
     overflow: hidden;
     color: #fff;
-
-}
-
-@media screen and (max-width: 500px) {
-
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    html {
-        margin: 0;
-        padding: 0;
-    }
-
-    .header a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
-    .header-index a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
-    .header-right {
-        float: none;
-    }
-
-    .button-right {
-        float: none;
-    }
-
-    .footer {
-        float: none;
-        display: block;
-        position: relative;
-        height: 2.5rem;
-        width: auto;
-        bottom: -200px;
-    }
 
 }
