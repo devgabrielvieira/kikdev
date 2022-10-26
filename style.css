@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .header {
     overflow: hidden;
     background-color: #FF4040;
@@ -81,7 +83,7 @@
     width: auto;
     height: 450px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #333333;
 }
 
 .footer {
@@ -94,12 +96,13 @@
 
 p {
     font-size: 13px;
-    margin: 0 0 0 0;
+    margin: 0 0 0 10px;
     float: none;
     overflow: hidden;
     color: #fff;
 
 }
+
 @media screen and (max-width: 500px) {
     .header a {
         float: none;
@@ -125,4 +128,5 @@ p {
         float: none;
         display: block;
     }
+
 }
