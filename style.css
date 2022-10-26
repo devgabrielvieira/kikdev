@@ -26,7 +26,7 @@
 }
 
 .header a.active {
-    background-color: #adadad;
+    background-color: #d8d7d7;
     color: white;
 
 }
@@ -38,7 +38,7 @@
 .button-right {
     float: right;
     padding: 8px 20px;
-    border: #adadad;
+    border: #d8d7d7;
     border-radius: 50px;
     color: #FF4040;
     background-color: #fff;
@@ -72,9 +72,24 @@
 }
 
 .header-index a.active {
-    background-color: #adadad;
+    background-color: #d8d7d7;
     color: white;
 
+}
+
+.conteudo {
+    width: 1335px;
+    height: 450px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.footer {
+    width: 1335px;
+    height: 60px;
+    overflow: hidden;
+    background-color: #FF4040;
+    padding: 20px 10px;
 }
 
 @media screen and (max-width: 500px) {
@@ -96,5 +111,10 @@
 
     .button-right {
         float: none;
+    }
+
+    .footer {
+        float: none;
+        display: block;
     }
 }
