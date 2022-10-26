@@ -78,20 +78,28 @@
 }
 
 .conteudo {
-    width: 1335px;
+    width: auto;
     height: 450px;
     overflow: hidden;
     background-color: #fff;
 }
 
 .footer {
-    width: 1335px;
+    width: auto;
     height: 60px;
     overflow: hidden;
     background-color: #FF4040;
     padding: 20px 10px;
 }
 
+p {
+    font-size: 13px;
+    margin: 0 0 0 0;
+    float: none;
+    overflow: hidden;
+    color: #fff;
+
+}
 @media screen and (max-width: 500px) {
     .header a {
         float: none;
