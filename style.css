@@ -166,9 +166,18 @@ input:hover {
 
 }
 
-.btn-entrar {
+.btn-acessar {
     margin: 10px 50px 0 500px;
     background: #FF4040;
+    border: 2px solid #fff;
+    padding: 9px 15px;
+    width: 210px;
+    max-width: 100%;
+}
+
+.btn-limpar {
+    margin: 10px 50px 0 500px;
+    background: #FF4;
     border: 2px solid #fff;
     padding: 9px 15px;
     width: 210px;
