@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-index {
+    overflow: hidden;
+    background-color: #ff4040;
+    padding: 10px 15px;
+    height: 5.5rem;
+    width: 100%;
+  }
+
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-index a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+
+  .button-right {
+    float: none;
+  }
+
+  .footer {
+    float: none;
+    bottom: -280px;
+    overflow: hidden;
+    padding: 10px 15px;
+    height: 5.5rem;
+    width: 100%;
+  }
+
+  /* .conteudo img {
+        float: none;
+        display: block;
+        position: absolute;
+        width: 100%;
+        background-color: #fff;
+        margin: 2px 0 0 0;
+        height: 10rem;
+    } */
+
+  .login {
+    width: 50%;
+    display: inline-block;
+  }
+
+  label {
+    margin-left: 50%;
+    margin-bottom: 3px;
+    display: block;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+  }
+
+  input[type="submit"],
+  label {
+    margin-left: 50%;
+    margin-top: 0.5rem;
+    color: #333333;
+  }
+
+  input {
+    margin-left: 50%;
+    caret-color: #222;
+    color: #333333;
+    border: 2px solid #ff4040;
+    border-radius: 36px;
+    padding: 7px 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  input:hover {
+    border: 2px solid #a0a0a0;
+  }
+
+  .href {
+    margin-left: 30%;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ff4040;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .btn-acessar {
+    margin-left: 50%;
+    margin-right: 50%;
+    background: #ff4040;
+    border: 2px solid #fff;
+    padding: 9px 15px;
+    width: 210px;
+    max-width: 100%;
+  }
+
+  .btn-limpar {
+    margin-left: 50%;
+    margin-right: 50%;
+    background: #ff4;
+    border: 2px solid #fff;
+    padding: 9px 15px;
+    width: 210px;
+    max-width: 100%;
+  }
+
+  h3 {
+    font-size: 25px;
+    width: 100%;
+    display: inline-block;
+    /* margin-bottom: 0.5rem;
+    margin-left: 15%; */
+    color: #333333;
+
+    margin-top: px;
+    margin-left: 15%;
+    margin-bottom: 0.1rem;
+  }
+}
