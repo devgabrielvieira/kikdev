@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   * {
     margin: 0;
     padding: 0;
@@ -41,12 +41,12 @@
 
   .footer {
     float: none;
-    bottom: -280px;
-    overflow: hidden;
-    padding: 10px 15px;
+    display: block;
+    position: relative;
     height: 5.5rem;
     width: 100%;
-
+    bottom: -280px;
+    
   }
 
   /* .conteudo img {
