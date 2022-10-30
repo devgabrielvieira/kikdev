@@ -43,7 +43,7 @@
     float: none;
     display: block;
     position: relative;
-    height: 5.5rem;
+    height: 2.5rem;
     width: 100%;
     bottom: -280px;
   }
@@ -59,17 +59,17 @@
     } */
 
   .login {
-    width: 50%;
+    width: -100%;
     display: inline-block;
   }
 
   label {
     margin-left: 50%;
-    margin-bottom: 3px;
     display: block;
     letter-spacing: 2px;
     font-size: 18px;
     color: #333333;
+    margin-bottom: 3px;
     font-weight: bold;
   }
 
@@ -97,12 +97,12 @@
 
   .href {
     margin-left: 30%;
+    margin-right: -30%;
     font-size: 13px;
     font-weight: bold;
     color: #ff4040;
     text-align: center;
     width: 100%;
-    padding: 2rem;
   }
 
   .btn-acessar {
@@ -127,8 +127,7 @@
 
   h2 {
     width: 100%;
-    display: inline-block;
-    margin-bottom: 0.5rem;
+    display: inline-flex;
     margin-left: 20%;
     color: #333333;
   }

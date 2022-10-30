@@ -65,11 +65,11 @@
 
   label {
     margin-left: 50%;
-    margin-bottom: 3px;
     display: block;
     letter-spacing: 2px;
     font-size: 18px;
     color: #333333;
+    margin-bottom: 3px;
     font-weight: bold;
   }
 

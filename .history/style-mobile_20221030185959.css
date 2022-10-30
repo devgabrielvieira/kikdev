@@ -65,11 +65,11 @@
 
   label {
     margin-left: 50%;
-    margin-bottom: 3px;
     display: block;
     letter-spacing: 2px;
     font-size: 18px;
     color: #333333;
+    margin-bottom: 3px;
     font-weight: bold;
   }
 
@@ -127,8 +127,7 @@
 
   h2 {
     width: 100%;
-    display: inline-block;
-    margin-bottom: 0.5rem;
+    display: inline-flex;
     margin-left: 20%;
     color: #333333;
   }
